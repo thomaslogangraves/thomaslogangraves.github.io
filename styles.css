@@ -1,3 +1,16 @@
 body {
-	background-color: blue
+	background-color: blue;
+	font-family: 'Georgia';
+	margin: 0 0 0 0;
+	margin-top: 50px;
+	margin-left: 250px;
+	margin-right: 500px;
+	align: center;
+}
+h3.head {
+	font-size: 1.5em;
+	font-family: 'Helvetica', Serif;
+	border-bottom: 4px dashed;
+	padding: 10px;
+
 }
