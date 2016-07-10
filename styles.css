@@ -7,7 +7,7 @@ body {
 	margin-top: 5%;
 	margin-left: 15%;
 	margin-right: 15%;
-	align: center;
+	z-index: 2;
 	
 }
 body:visited {
@@ -46,11 +46,19 @@ h3.head {
 	border-bottom: 4px dashed;
 	padding: 10px;
 }
+h1.head {
+	margin-top: 100px;
+	background-image: url(images/langmap.png);
+	background-size: 25%;
+	padding-left: 40%;
+}
 p {
+	display: inline-block;
+	float: left;
 	color: white;
 	background-color: black;
 	padding: 10px 20px 20px 10px;
-	display: inline-block;
+	
 	vertical-align: top;
 	width: 40%;
 }
@@ -62,6 +70,7 @@ img {
 	border: black;
 	display: inline-block;
 	vertical-align: top;
+	margin-left: 20px;
 }
 
 a:visited {
