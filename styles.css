@@ -1,3 +1,88 @@
 body {
-	background-color: blue
+	display: inline-block;
+	vertical-align: top;
+	background-color: blue;
+	font-family: 'Georgia';
+	margin: 0 0 0 0;
+	margin-top: 5%;
+	margin-left: 15%;
+	margin-right: 15%;
+	z-index: 2;
+	
+}
+body:visited {
+	color: #ffffff;
+}
+h1#tophead {
+	font-family: 'Helvetica';
+}
+
+div.navbar:hover {
+
+}
+div.navbar {
+	font-size: 2em;
+	margin: 0;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.nav {
+	color: White;
+	display: inline-block;
+	background-color: Black;
+	padding: 10px 25px;
+	width: 90%;
+	text-align: center;
+}
+.nav:hover {
+	background-color: yellow;
+}
+.nav:visted {
+	background-color: white;
+}
+h3.head {
+	font-size: 1.5em;
+	font-family: 'Georgia', Serif;
+	border-bottom: 4px dashed;
+	padding: 10px;
+}
+h1.head {
+	margin-top: 100px;
+	background-image: url(images/langmap.png);
+	background-size: 25%;
+	padding-left: 40%;
+}
+p {
+	display: inline-block;
+	float: left;
+	color: white;
+	background-color: black;
+	padding: 10px 20px 20px 10px;
+	
+	vertical-align: top;
+	width: 40%;
+}
+img {
+	display: inline-block;
+	vertical-align: top;
+}
+.table	{
+	border: black;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+}
+
+a:visited {
+	color: orange;
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		font-size: 50%;
+	}
+	img {
+		width: 50%;
+		height: 50%;
+	}
 }
