@@ -1,4 +1,6 @@
 body {
+	display: inline-block;
+	vertical-align: top;
 	background-color: blue;
 	font-family: 'Georgia';
 	margin: 0 0 0 0;
@@ -6,10 +8,15 @@ body {
 	margin-left: 15%;
 	margin-right: 15%;
 	align: center;
+	
 }
 body:visited {
-	color: yellow;
+	color: #ffffff;
 }
+h1#tophead {
+	font-family: 'Helvetica';
+}
+
 div.navbar:hover {
 
 }
@@ -19,7 +26,7 @@ div.navbar {
 	margin-left: 25%;
 	margin-right: 25%;
 }
-.nav1 {
+.nav {
 	color: White;
 	display: inline-block;
 	background-color: Black;
@@ -27,24 +34,46 @@ div.navbar {
 	width: 90%;
 	text-align: center;
 }
-.nav1:hover {
+.nav:hover {
 	background-color: yellow;
 }
-.nav1:visted {
+.nav:visted {
 	background-color: white;
 }
 h3.head {
 	font-size: 1.5em;
-	font-family: 'Helvetica', Serif;
+	font-family: 'Georgia', Serif;
 	border-bottom: 4px dashed;
 	padding: 10px;
 }
 p {
+	color: white;
+	background-color: black;
+	padding: 10px 20px 20px 10px;
 	display: inline-block;
 	vertical-align: top;
-	width: 50%;
+	width: 40%;
 }
 img {
 	display: inline-block;
 	vertical-align: top;
+}
+.table	{
+	border: black;
+	display: inline-block;
+	vertical-align: top;
+}
+
+a:visited {
+	color: orange;
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		font-size: 50%;
+	}
+	img {
+		width: 50%;
+		height: 50%;
+	}
 }
