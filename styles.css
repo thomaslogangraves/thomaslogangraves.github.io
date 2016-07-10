@@ -2,15 +2,49 @@ body {
 	background-color: blue;
 	font-family: 'Georgia';
 	margin: 0 0 0 0;
-	margin-top: 50px;
-	margin-left: 250px;
-	margin-right: 500px;
+	margin-top: 5%;
+	margin-left: 15%;
+	margin-right: 15%;
 	align: center;
+}
+body:visited {
+	color: yellow;
+}
+div.navbar:hover {
+
+}
+div.navbar {
+	font-size: 2em;
+	margin: 0;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.nav1 {
+	color: White;
+	display: inline-block;
+	background-color: Black;
+	padding: 10px 25px;
+	width: 90%;
+	text-align: center;
+}
+.nav1:hover {
+	background-color: yellow;
+}
+.nav1:visted {
+	background-color: white;
 }
 h3.head {
 	font-size: 1.5em;
 	font-family: 'Helvetica', Serif;
 	border-bottom: 4px dashed;
 	padding: 10px;
-
+}
+p {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+}
+img {
+	display: inline-block;
+	vertical-align: top;
 }
