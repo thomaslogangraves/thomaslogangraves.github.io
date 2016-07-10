@@ -7,7 +7,6 @@ body {
 	margin-top: 5%;
 	margin-left: 15%;
 	margin-right: 15%;
-	z-index: 2;
 	
 }
 body:visited {
@@ -28,7 +27,6 @@ div.navbar {
 }
 .nav {
 	color: White;
-	display: inline-block;
 	background-color: Black;
 	padding: 10px 25px;
 	width: 90%;
@@ -54,7 +52,6 @@ h1.head {
 }
 p {
 	display: inline-block;
-	float: left;
 	color: white;
 	background-color: black;
 	padding: 10px 20px 20px 10px;
