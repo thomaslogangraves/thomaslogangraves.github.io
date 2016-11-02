@@ -1,13 +1,14 @@
 .nav-wrapper {
-	background-color: #00ccff;
+	margin-top: 2em;
+	background-color: #2980b9;
 }
 
 .content {
-	background-color: #00ccff;
+	background-color: #2980b9;
 	color: white;
-	margin: 2em;
+	margin-top: 2em;
 	padding: 2em;
 }
 body {
-	background-color: black;
+	background-color: #95a5a6;
 }
